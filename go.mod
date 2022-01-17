@@ -6,10 +6,10 @@ require (
 	github.com/aws/aws-sdk-go v1.42.35 // indirect
 	github.com/caddyserver/caddy/v2 v2.4.6
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
-	github.com/libdns/route53 v1.1.2
 	github.com/miekg/dns v1.1.45 // indirect
 	github.com/prometheus/common v0.32.1 // indirect
 	github.com/prometheus/procfs v0.7.3 // indirect
+	github.com/tylerjl/route53 v1.1.3
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.7.0 // indirect
 	go.uber.org/zap v1.20.0 // indirect
@@ -19,5 +19,3 @@ require (
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
 	golang.org/x/tools v0.1.8 // indirect
 )
-
-replace github.com/libdns/route53 => github.com/tylerjl/route53 v1.1.4
