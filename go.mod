@@ -19,3 +19,5 @@ require (
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
 	golang.org/x/text v0.3.7 // indirect
 )
+
+replace github.com/libdns/route53 => github.com/tylerjl/route53 v1.1.3
