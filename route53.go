@@ -19,7 +19,7 @@ func init() {
 // CaddyModule returns the Caddy module information.
 func (Provider) CaddyModule() caddy.ModuleInfo {
 	return caddy.ModuleInfo{
-		ID: "dns.providers.route53",
+		ID: "dns.providers.tylerjl-route53",
 		New: func() caddy.Module {
 			return &Provider{new(route53.Provider)}
 		},
