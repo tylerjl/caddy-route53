@@ -1,4 +1,4 @@
-module github.com/tylejrl/caddy-route53
+module github.com/tylerjl/caddy-route53
 
 go 1.14
 
